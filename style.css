@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+header{
+    height: 70vh;
+    width: 100%;
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    position: relative;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+nav{
+    padding: 20px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+.centernav{
+    padding: 20px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.login{
+    background-color: black; 
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.frog{
+    float: left;
+}
+
+.textfrog{
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.infods{
+    width: 500px;
+    color: white;
+    float: left;
+    text-align: center;
+    margin-top: auto;
+    position: absolute;
+    top: 40%;
+    right: 800px;
+}
+
+.download{
+    display: inline;
+    margin-right: 50px;
+}
+
+.opends{
+    height: 500px;
+    display: inline;
+}
+
+.button{
+    background-color: black; 
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button2{
+    background-color: white; 
+    border-radius: 50px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
