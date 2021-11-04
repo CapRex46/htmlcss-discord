@@ -45,12 +45,19 @@ nav{
     font-size: 16px;
 }
 
-.frog{
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.frog img{
+    padding-right: 100px;
     float: left;
 }
 
 .textfrog{
-    
+    float: right;
 }
 
 nav ul {
